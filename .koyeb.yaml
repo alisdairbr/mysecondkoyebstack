@@ -1,0 +1,7 @@
+functions:
+  - name: hello-python-world
+    runtime: python3.8
+    handler: hello_python_world.handler
+    events:
+     - store:
+          name: haloed-potato
